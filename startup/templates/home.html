@@ -1,0 +1,156 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talent Hub - Find Your Dream Team</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="#"><img src="{% static 'logo.png' %}"></a> 
+            </div>
+            <div class="items">
+                <ul>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#signup" class="btn">Sign Up</a></li>
+                </ul> 
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Find Your Dream Team</h2>
+            <div class="chooseTalent">
+                <div class="talent">
+                    <h4>Find Exceptional Talent</h4>
+                    <p>At TalentHub, we take pride in curating a diverse pool of highly skilled professionals from
+                        various domains. Our rigorous screening process ensures that you have access to the finest
+                        talents who can bring value to your organization.</p>
+                </div>
+                <div class="talent">
+                    <h4>Simplified Hiring Process</h4>
+                    <p>We understand the significance of time in the recruitment process. TalentHub streamlines the
+                        hiring journey, making it swift and efficient. Our user-friendly platform allows you to post job
+                        openings, review candidates, and schedule interviews with ease.</p>
+                </div>
+                <div class="talent">
+                    <h4>Global Reach</h4>
+                    <p>Whether your company is based in India or anywhere else in the world, TalentHub connects you with
+                        talent from across the globe. Expand your reach and find the right candidates, irrespective of
+                        geographical boundaries.</p>
+                </div>
+                <div class="talent">
+                    <h4>Personalized Support</h4>
+                    <p>Our dedicated team of recruitment experts is here to assist you at every step of the hiring
+                        process. From crafting compelling job descriptions to providing valuable insights, we ensure you
+                        have all the support you need to make the right hiring decisions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <img src="{% static 'job1.jpg' %}" alt="Step 1">
+                    <h3>Post Jobs</h3>
+                    <p>Create and post job openings with detailed descriptions.</p>
+                </div>
+                <div class="step">
+                    <img src="{% static 'job2.jpg' %}" alt="Step 2">
+                    <h3>Discover Talent</h3>
+                    <p>Explore our vast pool of talented professionals.</p>
+                </div>
+                <div class="step">
+                    <img src="{% static 'job3.jpg' %}" alt="Step 3">
+                    <h3>Connect & Interview</h3>
+                    <p>Connect with candidates and schedule interviews.</p>
+                </div>
+                <div class="step">
+                    <img src="{% static 'job4.jpg' %}" alt="Step 4">
+                    <h3>Hire the Best</h3>
+                    <p>Hire the perfect fit and build your dream team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2>Our Hiring Categories</h2>
+            <div class="hiring">
+                <div class="hire">
+                    <img src="{% static 'software_eng.jpg' %}" alt="Step 1">
+                    <h3>Software Engineers</h3>
+                    <p>Revolutionize your software development team with top Software Engineers from Talent Hub. We
+                        present proactive problem solvers who possess expertise in programming languages like Python,
+                        Java, or C++. Their knowledge of software development best practices ensures robust and
+                        efficient applications. Explore our talent pool to find the perfect fit for your team and embark
+                        on a journey of innovative software development.</p>
+                </div>
+                <div class="step">
+                    <img src="{% static 'product_manager.jpg' %}" alt="Step 2">
+                    <h3>Product Managers</h3>
+                    <p>Attract dynamic Product Managers through Talent Hub who can effectively bridge business strategy,
+                        user needs, and technical development. Our curated talent pool comprises skilled professionals
+                        experienced in defining product roadmaps, prioritizing features, and conducting market research.
+                        With a focus on agile methodologies and data-driven decision-making, these Product Managers
+                        ensure successful product delivery and user satisfaction.</p>
+                </div>
+                <div class="step">
+                    <img src="{% static 'dataScientist.jpg' %}" alt="Step 3">
+                    <h3>Data Scientists</h3>
+                    <p> find exceptional Data Scientists who are passionate about uncovering valuable insights from
+                        complex datasets. Our diverse talent pool is filled with experts proficient in programming
+                        languages like Python or R and well-versed in applying statistical techniques and machine
+                        learning algorithms. With data manipulation and visualization skills, these professionals are
+                        equipped to make data-driven decisions and drive innovation in your company.</p>
+                </div>
+                <div class="step">
+                    <img src="{% static 'fullStack.jpg' %}" alt="Step 4">
+                    <h3>Full-Stack Developers</h3>
+                    <p>Full-Stack Developers on Talent Hub who possess the versatility to excel in both front-end and
+                        back-end development. From modern front-end technologies like React and Angular to back-end
+                        languages like JavaScript, Python, or Java, our talent pool boasts candidates who can seamlessly
+                        connect user interfaces with server-side logic.Don't miss the opportunity to hire these tech
+                        enthusiasts to power your web applications and drive your company's digital presence forward.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Got questions? Reach out to our support team at <a
+                    href="mailto:support@talentrecruit.com">support@talentrecruit.com</a>
+                or call us at <a href="tel:+91XXXXXXXXXX">+91 XXXXXXXXXX</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 TalentRecruit. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/talentrecruit" target="_blank"><img src="{% static 'fb.png' %}" alt="Facebook"></a>
+                <a href="https://www.twitter.com/talentrecruit" target="_blank"><img src="{% static 'twitter.png' %}"
+                        alt="Twitter"></a>
+                <a href="https://www.linkedin.com/company/talentrecruit" target="_blank"><img src="{% static 'linkedIn.png' %}"
+                        alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

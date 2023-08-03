@@ -1,0 +1,161 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('bkg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.logo{
+    display: flex;
+}
+.logo img{
+    margin: 10px;
+    height: 70px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+} 
+
+
+.chooseTalent{
+    display: flex;
+}
+.talent{
+    margin: 15px;
+}
+.chooseTalent h4{
+    font-size: 23px;
+}
+.hero {
+    /* background-color: #f0f0f0; */
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.how-it-works {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step {
+    flex-basis: 23%;
+    text-align: center;
+}
+
+.step img {
+    height:100px;
+    margin-bottom: 20px;
+}
+
+.categories {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.categories h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.hiring {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hire {
+    flex-basis: 23%;
+    text-align: center;
+}
+
+.hire img {
+    height:100px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 26px;
+}
+
+.contact {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
